@@ -1,2 +1,2 @@
 # web-demo
-MoneroAuth web application demo.
+MoneroAuth web application demo
