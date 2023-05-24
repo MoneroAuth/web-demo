@@ -16,5 +16,9 @@
         "jayson": "^4.0.0",
         "node-cache": "^5.1.2",
         "qrcode": "^1.5.1"
-    }
+    },
+    "keywords": [
+      "monero",
+      "authentication"
+    ]
 }
