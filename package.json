@@ -1,20 +1,20 @@
 {
     "name": "moneroauth",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use MoneroAuth web authenticator for secure no password needed authentication.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Monero Open Source",
     "license": "ISC",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/MoneroAuth/web-demo.git"
+        "type": "git",
+        "url": "git://github.com/MoneroAuth/web-demo.git"
     },
     "dependencies": {
-      "jayson": "^4.0.0",
-      "node-cache": "^5.1.2",
-      "qrcode": "^1.5.1"
+        "jayson": "^4.0.0",
+        "node-cache": "^5.1.2",
+        "qrcode": "^1.5.1"
     }
-  }
+}
