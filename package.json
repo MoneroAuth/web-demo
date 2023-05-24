@@ -1,0 +1,16 @@
+{
+    "name": "moneroauth",
+    "version": "1.0.0",
+    "description": "Use MoneroAuth web authenticator for secure no password needed authentication.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Monero Open Source",
+    "license": "ISC",
+    "dependencies": {
+      "jayson": "^4.0.0",
+      "node-cache": "^5.1.2",
+      "qrcode": "^1.5.1"
+    }
+  }
