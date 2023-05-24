@@ -8,6 +8,10 @@
     },
     "author": "Monero Open Source",
     "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/MoneroAuth/web-demo.git"
+    },
     "dependencies": {
       "jayson": "^4.0.0",
       "node-cache": "^5.1.2",
