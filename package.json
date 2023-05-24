@@ -1,6 +1,6 @@
 {
     "name": "moneroauth",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Use MoneroAuth web authenticator for secure no password needed authentication.",
     "main": "index.js",
     "scripts": {
@@ -18,7 +18,7 @@
         "qrcode": "^1.5.1"
     },
     "keywords": [
-      "monero",
-      "authentication"
+        "monero",
+        "authentication"
     ]
 }
