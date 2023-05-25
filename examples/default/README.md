@@ -4,12 +4,12 @@ This demo utilizes the MoneroAuth default in memory caching.
 ### Instructions
 Modify the .env file with your specific settings.
 
-## Install dependencies
+#### Install dependencies
 ```javascript
 npm install
 ``` 
 
-## Run
+####Run
 ```javascript
 node app
 ``` 
