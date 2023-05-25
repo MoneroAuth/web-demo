@@ -15,9 +15,13 @@ PRIMARY KEY (`id`))
 ```
 Modify the .env file with your specific settings.
 
-Run
+Install dependencies
 ```javascript
 npm install
+``` 
+
+Run
+```javascript
 node app
 ``` 
 
