@@ -2,7 +2,7 @@
 examples/default, in memory caching of MoneroAuth Challenge.
 
 ### Instructions
-Create a .env file in the root.
+Modify the .env with your specific parameters.
 
 Add your own setting's for the .env entries below
 
@@ -30,3 +30,11 @@ VERIFY_URL = "http://<YOUR URL>"
 # Monero endpoint
 MONERO_URL = "http://127.0.0.1:18089/json_rpc"
 ```
+
+Modify the .env file with your specific parameters.
+
+Run
+```javascript
+npm install
+node app
+``` 

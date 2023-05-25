@@ -14,40 +14,11 @@ CREATE TABLE `challenge` (
 `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY (`id`))
 ```
+Modify the .env file with your specific parameters.
 
-
-Create a .env file in the root.
-Add your own setting's for the .env entries below
-
+Run
 ```javascript
-# Session Secret Key for express-session
-SESSION_KEY = "thisismysecrctekeyfhrgfgrfrty84fwir767"
+npm install
+node app
+``` 
 
-# App Port
-APP_PORT = 3066
-
-# SESSION TTL, expires in milliseconds
-SESSION_TTL = 900000
-
-# Challenge Cache TTL, expire in seconds
-CHALLENGE_TTL = 180
-
-# URL to navigate to if a challenge times out
-# This is for redirect purpose
-HOME_URL = "http://<YOUR URL>"
-
-# Verify URL demo.moneroauth 
-# This is for redirect from the signing message to the Verify endpoint.
-VERIFY_URL = "http://<YOUR URL>"
-
-# Monero endpoint
-MONERO_URL = "http://127.0.0.1:18089/json_rpc"
-
-# for custom challenge scheming
-# you will need to configure to your specific DB
-DB_HOST = "<host>"
-DB_USER = "<user name>"
-DB_PASSWORD = "<user password>"
-DB_PORT = 3306
-DB_DATABASE = "id"
-```
