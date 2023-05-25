@@ -20,7 +20,7 @@ Modify the .env file with your specific settings.
 npm install
 ``` 
 
-####Run
+#### Run
 ```javascript
 node app
 ``` 
